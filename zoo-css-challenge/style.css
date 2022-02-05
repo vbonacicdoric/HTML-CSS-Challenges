@@ -116,10 +116,6 @@ footer {
   border: 5px solid #747c92;
 }
 
-.image-container img:first-of-type {
-  vertical-align: bottom;
-}
-
 .tigers {
   background-color: #0b3c49;
   color: #f0e100;
