@@ -104,11 +104,13 @@ footer {
 
 #badge:hover {
   background-color: yellow;
+  transition: all 1s ease;
 }
 
 #badge p {
   text-align: center;
   font-size: 125%;
+
 }
 
 .image-container img {
