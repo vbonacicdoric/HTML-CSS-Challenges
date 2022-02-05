@@ -34,6 +34,12 @@ img {
   border: 5px solid #8075ff;
 }
 
+.bears .bear1{ border-color: red;}
+.bears .bear2{border-color: blue;}
+.bears .bear3{border-color: green;}
+
+
+
 h1,
 h2,
 h3,
