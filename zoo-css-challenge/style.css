@@ -197,3 +197,7 @@ footer {
 .programs .card {
   display: block;
 }
+
+#logo{
+  border: none;
+}
