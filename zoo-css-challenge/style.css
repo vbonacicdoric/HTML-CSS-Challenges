@@ -1,11 +1,10 @@
 * {
   font-family: sans-serif;
-  line-height: 30px;
 }
 
 header {
   background-color: #211a1d;
-  color: #f09292;
+  color: #ffffff;
   width: 100%;
   padding: 20px;
 }
@@ -34,12 +33,6 @@ img {
   border: 5px solid #8075ff;
 }
 
-.bears .bear1{ border-color: red;}
-.bears .bear2{border-color: blue;}
-.bears .bear3{border-color: green;}
-
-
-
 h1,
 h2,
 h3,
@@ -60,6 +53,7 @@ h2 {
 
 h3 {
   font-size: 150%;
+
 }
 
 button {
@@ -119,17 +113,29 @@ footer {
 }
 
 .tigers {
-  background-color: #0b3c49;
+  background-color: #8F8F8F;
   color: #f0e100;
 }
 
-.giraffe {
-  background-color: #465775;
-  color: #56e39f;
+.tigers h2 {
+  color: #D1D1D1;
 }
 
-.giraffe h2 {
-  color: #ef6f6c;
+.giraffe {
+  background-color: #483C46;
+  color: #BEEE62;
+}
+
+.giraffe h2{
+  color: #F4743B;
+}
+
+.giraffe h3{
+  color: #F4743B;
+}
+
+.giraffe p:first-of-type {
+  font-size: 1.2em;
 }
 
 .card {
@@ -194,12 +200,50 @@ footer {
   color: #ff7f11;
 }
 
+.membership p {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*Programs*/
 
 .programs .card {
   display: block;
+  display: inline-block;
+  width: 25%;
 }
 
 #logo{
   border: none;
+}
+
+.bears .bear1{ border-color: red;}
+.bears .bear2{border-color: blue;}
+.bears .bear3{border-color: green;}
+
+.Elephant{
+  background-color: black;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+.Elephant h1 {
+  color: #11a159;;
+}
+
+.Elephant h2 {
+  color: #11a159;
+}
+
+ol.Elephant{
+  font-size: larger;Elephant
+}
+
+.Elephant img {
+  border: none;
+  width: 250px;
+  margin: 15px;
+  margin-right: 50px;
+  float: left;
 }
