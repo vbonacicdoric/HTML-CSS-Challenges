@@ -65,8 +65,16 @@ button {
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
+  font-size: 20px;
 }
 
+button:hover{
+  background-color: #11a159;
+}
+
+button:focus{
+  background-color: #f0e100;
+}
 footer {
   background-color: #211a1d;
   color: #ffffff;
@@ -87,7 +95,7 @@ footer {
   border-radius: 50%;
   display: inline-block;
   position: fixed;
-  bottom: 20px;
+  top: 20px;
   right: 20px;
 
   display: flex;
@@ -138,6 +146,12 @@ footer {
   font-size: 1.2em;
 }
 
+.news h2{
+  text-align: center;
+}
+
+
+
 .card {
   display: inline-block;
   background-color: white;
@@ -178,6 +192,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 30px;
 }
 
 .education-container h3,
